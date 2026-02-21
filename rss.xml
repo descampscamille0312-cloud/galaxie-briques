@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Galaxie Briques — LEGO Star Wars</title>
+    <description>Reviews, nouveautés, sets rares et guides LEGO Star Wars.</description>
+    <link>https://VOTRE_NOM.github.io/galaxie-briques/</link>
+
+    <item>
+      <title>Review : Le Faucon Millenium</title>
+      <link>https://VOTRE_NOM.github.io/galaxie-briques/posts/faucon-millenium.html</link>
+      <description>Review structurée : build, display, verdict et note.</description>
+      <pubDate>Sat, 21 Feb 2026 09:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Top 7 des sets à surveiller en 2026</title>
+      <link>https://VOTRE_NOM.github.io/galaxie-briques/posts/top-sets-2026.html</link>
+      <description>Classement et recommandations selon ton profil.</description>
+      <pubDate>Sat, 21 Feb 2026 09:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
