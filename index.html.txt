@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galaxie Briques - Blog LEGO Star Wars</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+header {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid gold;
+}
+
+header h1 {
+    margin: 0;
+    color: gold;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #1a1a1a;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.article {
+    background: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.article h2 {
+    color: gold;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: orange;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    margin-top: 40px;
+    border-top: 3px solid gold;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🌌 Galaxie Briques</h1>
+    <p>Le blog des passionnés LEGO Star Wars</p>
+</header>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#">Nouveautés</a>
+    <a href="#">Reviews</a>
+    <a href="#">Sets Rares</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="article">
+        <h2>Review : Le Faucon Millenium</h2>
+        <p>Découvrez mon analyse complète du célèbre vaisseau LEGO Star Wars. Détails, minifigurines, rapport qualité/prix et mon avis final.</p>
+        <a href="#" class="button">Lire l'article</a>
+    </div>
+
+    <div class="article">
+        <h2>Top 5 des sets LEGO Star Wars 2026</h2>
+        <p>Voici ma sélection des meilleurs sets de l'année pour les collectionneurs et fans de la saga.</p>
+        <a href="#" class="button">Lire l'article</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Galaxie Briques - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
