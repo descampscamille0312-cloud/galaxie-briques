@@ -1,120 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Galaxie Briques - Blog LEGO Star Wars</title>
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #0d0d0d;
-    color: white;
-}
-
-header {
-    background: black;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 3px solid gold;
-}
-
-header h1 {
-    margin: 0;
-    color: gold;
-}
-
-nav {
-    text-align: center;
-    padding: 10px;
-    background: #1a1a1a;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: gold;
-}
-
-.container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 30px auto;
-}
-
-.article {
-    background: #1a1a1a;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.article h2 {
-    color: gold;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 15px;
-    background: gold;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.button:hover {
-    background: orange;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: black;
-    margin-top: 40px;
-    border-top: 3px solid gold;
-}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galaxie Briques — Blog LEGO Star Wars</title>
+  <meta name="description" content="Reviews, nouveautés, sets rares et guides LEGO Star Wars. Un blog pour collectionneurs et fans de la saga." />
+  <meta property="og:title" content="Galaxie Briques — Blog LEGO Star Wars" />
+  <meta property="og:description" content="Reviews, nouveautés, sets rares et guides LEGO Star Wars." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-<body>
 
+<body>
 <header>
-    <h1>🌌 Galaxie Briques</h1>
-    <p>Le blog des passionnés LEGO Star Wars</p>
+  <div class="container nav">
+    <a class="brand" href="./index.html">
+      <span class="logo" aria-hidden="true"></span>
+      <span>Galaxie Briques</span>
+    </a>
+    <nav class="links" aria-label="Navigation">
+      <a href="#/" data-route="home" class="active">Accueil</a>
+      <a href="#/categorie/reviews" data-route="reviews">Reviews</a>
+      <a href="#/categorie/nouveautes" data-route="nouveautes">Nouveautés</a>
+      <a href="#/categorie/sets-rares" data-route="sets-rares">Sets rares</a>
+      <a href="#/a-propos" data-route="a-propos">À propos</a>
+    </nav>
+  </div>
 </header>
 
-<nav>
-    <a href="#">Accueil</a>
-    <a href="#">Nouveautés</a>
-    <a href="#">Reviews</a>
-    <a href="#">Sets Rares</a>
-    <a href="#">Contact</a>
-</nav>
-
-<div class="container">
-
-    <div class="article">
-        <h2>Review : Le Faucon Millenium</h2>
-        <p>Découvrez mon analyse complète du célèbre vaisseau LEGO Star Wars. Détails, minifigurines, rapport qualité/prix et mon avis final.</p>
-        <a href="#" class="button">Lire l'article</a>
-    </div>
-
-    <div class="article">
-        <h2>Top 5 des sets LEGO Star Wars 2026</h2>
-        <p>Voici ma sélection des meilleurs sets de l'année pour les collectionneurs et fans de la saga.</p>
-        <a href="#" class="button">Lire l'article</a>
-    </div>
-
-</div>
+<main class="container" id="app"></main>
 
 <footer>
-    <p>© 2026 Galaxie Briques - Tous droits réservés</p>
+  <div class="container">
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+      <small>© <span id="year"></span> Galaxie Briques — LEGO® est une marque du Groupe LEGO, non affiliée à ce site.</small>
+      <small>
+        <a href="./rss.xml">RSS</a> · <a href="./sitemap.xml">Sitemap</a>
+      </small>
+    </div>
+  </div>
 </footer>
 
+<script src="./app.js"></script>
 </body>
 </html>
